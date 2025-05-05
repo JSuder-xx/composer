@@ -1,4 +1,4 @@
-module Test exposing (..)
+module Example exposing (..)
 
 import Browser
 import Composer as Container exposing (ParentDefinition, aParent, hasChild, parentAsChild)

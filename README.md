@@ -10,6 +10,8 @@ Elm package to remove boiler plate from parent/child communication when no side 
   as you might think. Given `update : Msg -> Model -> Model` and `view : Model -> Html Msg` then `view >> Html.map update` produces a function that works with this library.
   - Each element operates on its own data. Relationships between elements are formed in a parent's composition function.
 
+See [Example](src/Example.elm) for an illustration of succinctly declaring nested user interfaces.
+
 This repository will become TWO packages
 
 - `jsuder-xx/composer` a narrowly scoped package that defines an Api that removes all boiler plate in composing parent/child interfaces.
